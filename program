@@ -1,0 +1,18 @@
+#include <stdio.h>
+int even(int n)
+{
+    switch((n%2)==0)
+    {
+        case 1:printf("even");
+               break;
+        case 0:printf("odd");
+               break;
+    }
+}
+void main()
+{
+    int n,temp;
+    printf("enter n value");
+    scanf("%d",&n);
+    even(n);
+}
